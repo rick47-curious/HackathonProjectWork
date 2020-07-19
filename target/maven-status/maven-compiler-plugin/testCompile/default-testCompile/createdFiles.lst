@@ -1,0 +1,4 @@
+com\EmiCalculator\regressiontest\DriverRegressionTest.class
+com\EmiCalculator\smoketest\ReportTest.class
+com\EmiCalculator\AdvanceReport\ExtentReportDriver.class
+com\EmiCalculator\smoketest\TestDriver.class

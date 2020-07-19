@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="13" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-07-16T04:15:21Z" name="Default suite" finished-at="2020-07-16T04:15:38Z" duration-ms="17425">
+    <groups>
+    </groups>
+    <test started-at="2020-07-16T04:15:21Z" name="Default test" finished-at="2020-07-16T04:15:38Z" duration-ms="17425">
+      <class name="com.EmiCalculator.test.TestDriver">
+        <test-method is-config="true" signature="getDriver()[pri:0, instance:com.EmiCalculator.test.TestDriver@c0c2f8d]" started-at="2020-07-16T04:15:15Z" name="getDriver" finished-at="2020-07-16T04:15:21Z" duration-ms="5737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDriver -->
+        <test-method is-config="true" signature="getRequiredSettings()[pri:0, instance:com.EmiCalculator.test.TestDriver@c0c2f8d]" started-at="2020-07-16T04:15:21Z" name="getRequiredSettings" finished-at="2020-07-16T04:15:24Z" duration-ms="2998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getRequiredSettings -->
+        <test-method is-config="true" signature="loadSynchronization()[pri:0, instance:com.EmiCalculator.test.TestDriver@c0c2f8d]" started-at="2020-07-16T04:15:24Z" name="loadSynchronization" finished-at="2020-07-16T04:15:25Z" duration-ms="1002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadSynchronization -->
+        <test-method signature="verifyPage()[pri:0, instance:com.EmiCalculator.test.TestDriver@c0c2f8d]" started-at="2020-07-16T04:15:25Z" name="verifyPage" finished-at="2020-07-16T04:15:25Z" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPage -->
+        <test-method signature="setoption()[pri:1, instance:com.EmiCalculator.test.TestDriver@c0c2f8d]" started-at="2020-07-16T04:15:25Z" name="setoption" finished-at="2020-07-16T04:15:26Z" duration-ms="493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setoption -->
+        <test-method signature="typeAmount()[pri:2, instance:com.EmiCalculator.test.TestDriver@c0c2f8d]" started-at="2020-07-16T04:15:26Z" name="typeAmount" finished-at="2020-07-16T04:15:26Z" duration-ms="922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- typeAmount -->
+        <test-method signature="typeInterest()[pri:3, instance:com.EmiCalculator.test.TestDriver@c0c2f8d]" started-at="2020-07-16T04:15:26Z" name="typeInterest" finished-at="2020-07-16T04:15:27Z" duration-ms="1018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- typeInterest -->
+        <test-method signature="typeTenure()[pri:4, instance:com.EmiCalculator.test.TestDriver@c0c2f8d]" started-at="2020-07-16T04:15:27Z" name="typeTenure" finished-at="2020-07-16T04:15:28Z" duration-ms="927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- typeTenure -->
+        <test-method signature="typeStartingMonth()[pri:5, instance:com.EmiCalculator.test.TestDriver@c0c2f8d]" started-at="2020-07-16T04:15:28Z" name="typeStartingMonth" finished-at="2020-07-16T04:15:28Z" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- typeStartingMonth -->
+        <test-method signature="clickExpand()[pri:6, instance:com.EmiCalculator.test.TestDriver@c0c2f8d]" started-at="2020-07-16T04:15:28Z" name="clickExpand" finished-at="2020-07-16T04:15:29Z" duration-ms="216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickExpand -->
+        <test-method signature="getDataInWorkbook()[pri:7, instance:com.EmiCalculator.test.TestDriver@c0c2f8d]" started-at="2020-07-16T04:15:29Z" name="getDataInWorkbook" finished-at="2020-07-16T04:15:30Z" duration-ms="842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDataInWorkbook -->
+        <test-method signature="takeScreenshot()[pri:8, instance:com.EmiCalculator.test.TestDriver@c0c2f8d]" started-at="2020-07-16T04:15:30Z" name="takeScreenshot" finished-at="2020-07-16T04:15:30Z" duration-ms="750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method signature="newCarLoan()[pri:9, instance:com.EmiCalculator.test.TestDriver@c0c2f8d]" started-at="2020-07-16T04:15:30Z" name="newCarLoan" finished-at="2020-07-16T04:15:34Z" duration-ms="3979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newCarLoan -->
+        <test-method signature="typeNewAmount()[pri:10, instance:com.EmiCalculator.test.TestDriver@c0c2f8d]" started-at="2020-07-16T04:15:34Z" name="typeNewAmount" finished-at="2020-07-16T04:15:35Z" duration-ms="977" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Minimum Loan Amount : 1 expected [1.0] but found [0.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Minimum Loan Amount : 1 expected [1.0] but found [0.0]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at com.EmiCalculator.test.TestDriver.typeNewAmount(TestDriver.java:127)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- typeNewAmount -->
+        <test-method signature="typeNewInterest()[pri:11, instance:com.EmiCalculator.test.TestDriver@c0c2f8d]" started-at="2020-07-16T04:15:35Z" name="typeNewInterest" finished-at="2020-07-16T04:15:36Z" duration-ms="953" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Minimum Interest Amount : 5% expected [5.0] but found [0.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Minimum Interest Amount : 5% expected [5.0] but found [0.0]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at com.EmiCalculator.test.TestDriver.typeNewInterest(TestDriver.java:132)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- typeNewInterest -->
+        <test-method signature="typeNewTenure()[pri:12, instance:com.EmiCalculator.test.TestDriver@c0c2f8d]" started-at="2020-07-16T04:15:36Z" name="typeNewTenure" finished-at="2020-07-16T04:15:37Z" duration-ms="649" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Minimum Loan Tenure is : 1 Year expected [1.0] but found [0.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Minimum Loan Tenure is : 1 Year expected [1.0] but found [0.0]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at com.EmiCalculator.test.TestDriver.typeNewTenure(TestDriver.java:137)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- typeNewTenure -->
+        <test-method signature="clickSecondExpand()[pri:13, instance:com.EmiCalculator.test.TestDriver@c0c2f8d]" started-at="2020-07-16T04:15:37Z" name="clickSecondExpand" finished-at="2020-07-16T04:15:37Z" duration-ms="216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSecondExpand -->
+        <test-method signature="getNewValues()[pri:14, instance:com.EmiCalculator.test.TestDriver@c0c2f8d]" started-at="2020-07-16T04:15:37Z" name="getNewValues" finished-at="2020-07-16T04:15:38Z" duration-ms="566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getNewValues -->
+        <test-method signature="takesecondScreenShot()[pri:15, instance:com.EmiCalculator.test.TestDriver@c0c2f8d]" started-at="2020-07-16T04:15:38Z" name="takesecondScreenShot" finished-at="2020-07-16T04:15:38Z" duration-ms="728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takesecondScreenShot -->
+        <test-method is-config="true" signature="closeResources()[pri:0, instance:com.EmiCalculator.test.TestDriver@c0c2f8d]" started-at="2020-07-16T04:15:38Z" name="closeResources" finished-at="2020-07-16T04:15:38Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeResources -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:com.EmiCalculator.test.TestDriver@c0c2f8d]" started-at="2020-07-16T04:15:38Z" name="closeDriver" finished-at="2020-07-16T04:15:40Z" duration-ms="1333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.EmiCalculator.test.TestDriver -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

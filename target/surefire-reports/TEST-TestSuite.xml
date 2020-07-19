@@ -1,0 +1,813 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="52.165" tests="23" errors="0" skipped="0" failures="3">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="14+36-1461"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-14\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\anuplab\Desktop\JAVA PROGRAMMES\EmiCalculator"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\anuplab\Desktop\JAVA PROGRAMMES\EmiCalculator"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="14+36-1461"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\anuplab\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="classworlds.conf" value="C:\Users\anuplab\Desktop\JAVA PROGRAMMES\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5879754954033871903.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-14\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_241/bin/server;C:/Program Files/Java/jre1.8.0_241/bin;C:/Program Files/Java/jre1.8.0_241/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Hewlett-Packard\SimplePass\;c:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk-14\bin;C:\apache-maven-3.6.3\bin;C:\apache-maven-3.6.3\bin;E:\;%ALLURE_HOME%\bin;C:\Program Files\Git\cmd;;C:\Users\anuplab\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\anuplab\Desktop;;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="58.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.3"/>
+    <property name="user.home" value="C:\Users\anuplab"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="14"/>
+    <property name="user.name" value="anuplab"/>
+    <property name="java.class.path" value="C:\Users\anuplab\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.14.0.20191209-1923\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="14"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-14"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="14"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\anuplab\Desktop\JAVA PROGRAMMES\EmiCalculator\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2020-03-17"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="verifyPage" classname="com.EmiCalculator.regressiontest.DriverRegressionTest" time="7.408"/>
+  <testcase name="verifyPage" classname="com.EmiCalculator.smoketest.TestDriver" time="0.099"/>
+  <testcase name="setoption" classname="com.EmiCalculator.regressiontest.DriverRegressionTest" time="0.469"/>
+  <testcase name="setoption" classname="com.EmiCalculator.smoketest.TestDriver" time="0.916"/>
+  <testcase name="setLoanAmount" classname="com.EmiCalculator.regressiontest.DriverRegressionTest" time="0.984"/>
+  <testcase name="typeAmount" classname="com.EmiCalculator.smoketest.TestDriver" time="0.604"/>
+  <testcase name="setInterest" classname="com.EmiCalculator.regressiontest.DriverRegressionTest" time="0.379"/>
+  <testcase name="typeInterest" classname="com.EmiCalculator.smoketest.TestDriver" time="1.387"/>
+  <testcase name="setTenure" classname="com.EmiCalculator.regressiontest.DriverRegressionTest" time="0.246"/>
+  <testcase name="getOutput" classname="com.EmiCalculator.regressiontest.DriverRegressionTest" time="0.449"/>
+  <testcase name="typeTenure" classname="com.EmiCalculator.smoketest.TestDriver" time="1.255"/>
+  <testcase name="typeStartingMonth" classname="com.EmiCalculator.smoketest.TestDriver" time="0.004"/>
+  <testcase name="getScreenshot" classname="com.EmiCalculator.regressiontest.DriverRegressionTest" time="0.038"/>
+  <testcase name="clickExpand" classname="com.EmiCalculator.smoketest.TestDriver" time="0.369"/>
+  <testcase name="getDataInWorkbook" classname="com.EmiCalculator.smoketest.TestDriver" time="1.562"/>
+  <testcase name="takeScreenshot" classname="com.EmiCalculator.smoketest.TestDriver" time="27.174"/>
+  <testcase name="newCarLoan" classname="com.EmiCalculator.smoketest.TestDriver" time="4.847"/>
+  <testcase name="typeNewAmount" classname="com.EmiCalculator.smoketest.TestDriver" time="1.173">
+    <failure message="Minimum Loan Amount : 1 expected [1.0] but found [0.0]" type="java.lang.AssertionError">java.lang.AssertionError: Minimum Loan Amount : 1 expected [1.0] but found [0.0]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at com.EmiCalculator.smoketest.TestDriver.typeNewAmount(TestDriver.java:191)
+</failure>
+    <system-out><![CDATA[07-19-2020 20:59:11 RequestAddCookies.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] protocol.RequestAddCookies 123 - CookieSpec selected: default
+07-19-2020 20:59:11 RequestAuthCache.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] protocol.RequestAuthCache 77 - Auth cache not set in the context
+07-19-2020 20:59:11 PoolingHttpClientConnectionManager.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 255 - Connection request: [route: {}->http://localhost:47482][total kept alive: 2; route allocated: 1 of 2000; total allocated: 2 of 2000]
+07-19-2020 20:59:11 PoolingHttpClientConnectionManager.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 288 - Connection leased: [id: 0][route: {}->http://localhost:47482][total kept alive: 1; route allocated: 1 of 2000; total allocated: 2 of 2000]
+07-19-2020 20:59:11 MainClientExec.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 208 - Stale connection check
+07-19-2020 20:59:11 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 87 - http-outgoing-0 << "[read] I/O error: Read timed out"
+07-19-2020 20:59:11 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.DefaultManagedHttpClientConnection 88 - http-outgoing-0: set socket timeout to 10800000
+07-19-2020 20:59:11 MainClientExec.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 256 - Executing request POST /session/ca0ffc7ea4fa493441644194cecd33bd/element HTTP/1.1
+07-19-2020 20:59:11 MainClientExec.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 261 - Target auth state: UNCHALLENGED
+07-19-2020 20:59:11 MainClientExec.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 267 - Proxy auth state: UNCHALLENGED
+07-19-2020 20:59:11 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 133 - http-outgoing-0 >> POST /session/ca0ffc7ea4fa493441644194cecd33bd/element HTTP/1.1
+07-19-2020 20:59:11 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+07-19-2020 20:59:11 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Content-Length: 46
+07-19-2020 20:59:11 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Host: localhost:47482
+07-19-2020 20:59:11 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Connection: Keep-Alive
+07-19-2020 20:59:11 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/14)
+07-19-2020 20:59:11 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+07-19-2020 20:59:11 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "POST /session/ca0ffc7ea4fa493441644194cecd33bd/element HTTP/1.1[\r][\n]"
+07-19-2020 20:59:11 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+07-19-2020 20:59:11 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Content-Length: 46[\r][\n]"
+07-19-2020 20:59:11 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Host: localhost:47482[\r][\n]"
+07-19-2020 20:59:11 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+07-19-2020 20:59:11 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/14)[\r][\n]"
+07-19-2020 20:59:11 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+07-19-2020 20:59:11 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "[\r][\n]"
+07-19-2020 20:59:11 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 87 - http-outgoing-0 >> "{"value":"#loanamount","using":"css selector"}"
+07-19-2020 20:59:11 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+07-19-2020 20:59:11 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "Content-Length:88[\r][\n]"
+07-19-2020 20:59:11 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+07-19-2020 20:59:11 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+07-19-2020 20:59:11 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "[\r][\n]"
+07-19-2020 20:59:11 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 87 - http-outgoing-0 << "{"value":{"element-6066-11e4-a52e-4f735466cecf":"6f1839d6-473e-4ffd-a46b-baff453cd959"}}"
+07-19-2020 20:59:11 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 122 - http-outgoing-0 << HTTP/1.1 200 OK
+07-19-2020 20:59:11 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 125 - http-outgoing-0 << Content-Length:88
+07-19-2020 20:59:11 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 125 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+07-19-2020 20:59:11 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 125 - http-outgoing-0 << cache-control:no-cache
+07-19-2020 20:59:11 MainClientExec.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 285 - Connection can be kept alive indefinitely
+07-19-2020 20:59:11 PoolingHttpClientConnectionManager.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 320 - Connection [id: 0][route: {}->http://localhost:47482] can be kept alive indefinitely
+07-19-2020 20:59:11 PoolingHttpClientConnectionManager.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 326 - Connection released: [id: 0][route: {}->http://localhost:47482][total kept alive: 2; route allocated: 1 of 2000; total allocated: 2 of 2000]
+07-19-2020 20:59:11 RequestAddCookies.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] protocol.RequestAddCookies 123 - CookieSpec selected: default
+07-19-2020 20:59:11 RequestAuthCache.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] protocol.RequestAuthCache 77 - Auth cache not set in the context
+07-19-2020 20:59:11 PoolingHttpClientConnectionManager.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 255 - Connection request: [route: {}->http://localhost:47482][total kept alive: 2; route allocated: 1 of 2000; total allocated: 2 of 2000]
+07-19-2020 20:59:11 PoolingHttpClientConnectionManager.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 288 - Connection leased: [id: 0][route: {}->http://localhost:47482][total kept alive: 1; route allocated: 1 of 2000; total allocated: 2 of 2000]
+07-19-2020 20:59:11 MainClientExec.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 208 - Stale connection check
+07-19-2020 20:59:11 Wire.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 87 - http-outgoing-0 << "[read] I/O error: Read timed out"
+07-19-2020 20:59:11 LoggingManagedHttpClientConnection.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.DefaultManagedHttpClientConnection 88 - http-outgoing-0: set socket timeout to 10800000
+07-19-2020 20:59:11 MainClientExec.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 256 - Executing request POST /session/ca0ffc7ea4fa493441644194cecd33bd/element/6f1839d6-473e-4ffd-a46b-baff453cd959/clear HTTP/1.1
+07-19-2020 20:59:11 MainClientExec.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 261 - Target auth state: UNCHALLENGED
+07-19-2020 20:59:11 MainClientExec.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 267 - Proxy auth state: UNCHALLENGED
+07-19-2020 20:59:11 LoggingManagedHttpClientConnection.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 133 - http-outgoing-0 >> POST /session/ca0ffc7ea4fa493441644194cecd33bd/element/6f1839d6-473e-4ffd-a46b-baff453cd959/clear HTTP/1.1
+07-19-2020 20:59:11 LoggingManagedHttpClientConnection.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+07-19-2020 20:59:11 LoggingManagedHttpClientConnection.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Content-Length: 45
+07-19-2020 20:59:11 LoggingManagedHttpClientConnection.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Host: localhost:47482
+07-19-2020 20:59:11 LoggingManagedHttpClientConnection.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Connection: Keep-Alive
+07-19-2020 20:59:11 LoggingManagedHttpClientConnection.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/14)
+07-19-2020 20:59:11 LoggingManagedHttpClientConnection.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+07-19-2020 20:59:11 Wire.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "POST /session/ca0ffc7ea4fa493441644194cecd33bd/element/6f1839d6-473e-4ffd-a46b-baff453cd959/clear HTTP/1.1[\r][\n]"
+07-19-2020 20:59:11 Wire.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+07-19-2020 20:59:11 Wire.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Content-Length: 45[\r][\n]"
+07-19-2020 20:59:11 Wire.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Host: localhost:47482[\r][\n]"
+07-19-2020 20:59:11 Wire.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+07-19-2020 20:59:11 Wire.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/14)[\r][\n]"
+07-19-2020 20:59:11 Wire.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+07-19-2020 20:59:11 Wire.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "[\r][\n]"
+07-19-2020 20:59:11 Wire.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 87 - http-outgoing-0 >> "{"id":"6f1839d6-473e-4ffd-a46b-baff453cd959"}"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "Content-Length:14[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 87 - http-outgoing-0 << "{"value":null}"
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 122 - http-outgoing-0 << HTTP/1.1 200 OK
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 125 - http-outgoing-0 << Content-Length:14
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 125 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 125 - http-outgoing-0 << cache-control:no-cache
+07-19-2020 20:59:12 MainClientExec.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 285 - Connection can be kept alive indefinitely
+07-19-2020 20:59:12 PoolingHttpClientConnectionManager.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 320 - Connection [id: 0][route: {}->http://localhost:47482] can be kept alive indefinitely
+07-19-2020 20:59:12 PoolingHttpClientConnectionManager.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 326 - Connection released: [id: 0][route: {}->http://localhost:47482][total kept alive: 2; route allocated: 1 of 2000; total allocated: 2 of 2000]
+07-19-2020 20:59:12 RequestAddCookies.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] protocol.RequestAddCookies 123 - CookieSpec selected: default
+07-19-2020 20:59:12 RequestAuthCache.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] protocol.RequestAuthCache 77 - Auth cache not set in the context
+07-19-2020 20:59:12 PoolingHttpClientConnectionManager.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 255 - Connection request: [route: {}->http://localhost:47482][total kept alive: 2; route allocated: 1 of 2000; total allocated: 2 of 2000]
+07-19-2020 20:59:12 PoolingHttpClientConnectionManager.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 288 - Connection leased: [id: 0][route: {}->http://localhost:47482][total kept alive: 1; route allocated: 1 of 2000; total allocated: 2 of 2000]
+07-19-2020 20:59:12 MainClientExec.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 208 - Stale connection check
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 87 - http-outgoing-0 << "[read] I/O error: Read timed out"
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.DefaultManagedHttpClientConnection 88 - http-outgoing-0: set socket timeout to 10800000
+07-19-2020 20:59:12 MainClientExec.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 256 - Executing request POST /session/ca0ffc7ea4fa493441644194cecd33bd/element HTTP/1.1
+07-19-2020 20:59:12 MainClientExec.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 261 - Target auth state: UNCHALLENGED
+07-19-2020 20:59:12 MainClientExec.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 267 - Proxy auth state: UNCHALLENGED
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 133 - http-outgoing-0 >> POST /session/ca0ffc7ea4fa493441644194cecd33bd/element HTTP/1.1
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Content-Length: 46
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Host: localhost:47482
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Connection: Keep-Alive
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/14)
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "POST /session/ca0ffc7ea4fa493441644194cecd33bd/element HTTP/1.1[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Content-Length: 46[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Host: localhost:47482[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/14)[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 87 - http-outgoing-0 >> "{"value":"#loanamount","using":"css selector"}"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "Content-Length:88[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 87 - http-outgoing-0 << "{"value":{"element-6066-11e4-a52e-4f735466cecf":"6f1839d6-473e-4ffd-a46b-baff453cd959"}}"
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 122 - http-outgoing-0 << HTTP/1.1 200 OK
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 125 - http-outgoing-0 << Content-Length:88
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 125 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 125 - http-outgoing-0 << cache-control:no-cache
+07-19-2020 20:59:12 MainClientExec.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 285 - Connection can be kept alive indefinitely
+07-19-2020 20:59:12 PoolingHttpClientConnectionManager.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 320 - Connection [id: 0][route: {}->http://localhost:47482] can be kept alive indefinitely
+07-19-2020 20:59:12 PoolingHttpClientConnectionManager.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 326 - Connection released: [id: 0][route: {}->http://localhost:47482][total kept alive: 2; route allocated: 1 of 2000; total allocated: 2 of 2000]
+07-19-2020 20:59:12 RequestAddCookies.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] protocol.RequestAddCookies 123 - CookieSpec selected: default
+07-19-2020 20:59:12 RequestAuthCache.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] protocol.RequestAuthCache 77 - Auth cache not set in the context
+07-19-2020 20:59:12 PoolingHttpClientConnectionManager.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 255 - Connection request: [route: {}->http://localhost:47482][total kept alive: 2; route allocated: 1 of 2000; total allocated: 2 of 2000]
+07-19-2020 20:59:12 PoolingHttpClientConnectionManager.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 288 - Connection leased: [id: 0][route: {}->http://localhost:47482][total kept alive: 1; route allocated: 1 of 2000; total allocated: 2 of 2000]
+07-19-2020 20:59:12 MainClientExec.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 208 - Stale connection check
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 87 - http-outgoing-0 << "[read] I/O error: Read timed out"
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.DefaultManagedHttpClientConnection 88 - http-outgoing-0: set socket timeout to 10800000
+07-19-2020 20:59:12 MainClientExec.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 256 - Executing request POST /session/ca0ffc7ea4fa493441644194cecd33bd/element/6f1839d6-473e-4ffd-a46b-baff453cd959/value HTTP/1.1
+07-19-2020 20:59:12 MainClientExec.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 261 - Target auth state: UNCHALLENGED
+07-19-2020 20:59:12 MainClientExec.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 267 - Proxy auth state: UNCHALLENGED
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 133 - http-outgoing-0 >> POST /session/ca0ffc7ea4fa493441644194cecd33bd/element/6f1839d6-473e-4ffd-a46b-baff453cd959/value HTTP/1.1
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Content-Length: 74
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Host: localhost:47482
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Connection: Keep-Alive
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/14)
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "POST /session/ca0ffc7ea4fa493441644194cecd33bd/element/6f1839d6-473e-4ffd-a46b-baff453cd959/value HTTP/1.1[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Content-Length: 74[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Host: localhost:47482[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/14)[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 87 - http-outgoing-0 >> "{"id":"6f1839d6-473e-4ffd-a46b-baff453cd959","text":"[0xee][0x80][0x83]","value":["[0xee][0x80][0x83]"]}"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "Content-Length:14[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 87 - http-outgoing-0 << "{"value":null}"
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 122 - http-outgoing-0 << HTTP/1.1 200 OK
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 125 - http-outgoing-0 << Content-Length:14
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 125 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 125 - http-outgoing-0 << cache-control:no-cache
+07-19-2020 20:59:12 MainClientExec.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 285 - Connection can be kept alive indefinitely
+07-19-2020 20:59:12 PoolingHttpClientConnectionManager.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 320 - Connection [id: 0][route: {}->http://localhost:47482] can be kept alive indefinitely
+07-19-2020 20:59:12 PoolingHttpClientConnectionManager.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 326 - Connection released: [id: 0][route: {}->http://localhost:47482][total kept alive: 2; route allocated: 1 of 2000; total allocated: 2 of 2000]
+07-19-2020 20:59:12 RequestAddCookies.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] protocol.RequestAddCookies 123 - CookieSpec selected: default
+07-19-2020 20:59:12 RequestAuthCache.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] protocol.RequestAuthCache 77 - Auth cache not set in the context
+07-19-2020 20:59:12 PoolingHttpClientConnectionManager.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 255 - Connection request: [route: {}->http://localhost:47482][total kept alive: 2; route allocated: 1 of 2000; total allocated: 2 of 2000]
+07-19-2020 20:59:12 PoolingHttpClientConnectionManager.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 288 - Connection leased: [id: 0][route: {}->http://localhost:47482][total kept alive: 1; route allocated: 1 of 2000; total allocated: 2 of 2000]
+07-19-2020 20:59:12 MainClientExec.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 208 - Stale connection check
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 87 - http-outgoing-0 << "[read] I/O error: Read timed out"
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.DefaultManagedHttpClientConnection 88 - http-outgoing-0: set socket timeout to 10800000
+07-19-2020 20:59:12 MainClientExec.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 256 - Executing request POST /session/ca0ffc7ea4fa493441644194cecd33bd/element HTTP/1.1
+07-19-2020 20:59:12 MainClientExec.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 261 - Target auth state: UNCHALLENGED
+07-19-2020 20:59:12 MainClientExec.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 267 - Proxy auth state: UNCHALLENGED
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 133 - http-outgoing-0 >> POST /session/ca0ffc7ea4fa493441644194cecd33bd/element HTTP/1.1
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Content-Length: 46
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Host: localhost:47482
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Connection: Keep-Alive
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/14)
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "POST /session/ca0ffc7ea4fa493441644194cecd33bd/element HTTP/1.1[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Content-Length: 46[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Host: localhost:47482[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/14)[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 87 - http-outgoing-0 >> "{"value":"#loanamount","using":"css selector"}"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "Content-Length:88[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 87 - http-outgoing-0 << "{"value":{"element-6066-11e4-a52e-4f735466cecf":"6f1839d6-473e-4ffd-a46b-baff453cd959"}}"
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 122 - http-outgoing-0 << HTTP/1.1 200 OK
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 125 - http-outgoing-0 << Content-Length:88
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 125 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 125 - http-outgoing-0 << cache-control:no-cache
+07-19-2020 20:59:12 MainClientExec.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 285 - Connection can be kept alive indefinitely
+07-19-2020 20:59:12 PoolingHttpClientConnectionManager.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 320 - Connection [id: 0][route: {}->http://localhost:47482] can be kept alive indefinitely
+07-19-2020 20:59:12 PoolingHttpClientConnectionManager.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 326 - Connection released: [id: 0][route: {}->http://localhost:47482][total kept alive: 2; route allocated: 1 of 2000; total allocated: 2 of 2000]
+07-19-2020 20:59:12 RequestAddCookies.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] protocol.RequestAddCookies 123 - CookieSpec selected: default
+07-19-2020 20:59:12 RequestAuthCache.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] protocol.RequestAuthCache 77 - Auth cache not set in the context
+07-19-2020 20:59:12 PoolingHttpClientConnectionManager.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 255 - Connection request: [route: {}->http://localhost:47482][total kept alive: 2; route allocated: 1 of 2000; total allocated: 2 of 2000]
+07-19-2020 20:59:12 PoolingHttpClientConnectionManager.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 288 - Connection leased: [id: 0][route: {}->http://localhost:47482][total kept alive: 1; route allocated: 1 of 2000; total allocated: 2 of 2000]
+07-19-2020 20:59:12 MainClientExec.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 208 - Stale connection check
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 87 - http-outgoing-0 << "[read] I/O error: Read timed out"
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.DefaultManagedHttpClientConnection 88 - http-outgoing-0: set socket timeout to 10800000
+07-19-2020 20:59:12 MainClientExec.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 256 - Executing request POST /session/ca0ffc7ea4fa493441644194cecd33bd/element/6f1839d6-473e-4ffd-a46b-baff453cd959/value HTTP/1.1
+07-19-2020 20:59:12 MainClientExec.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 261 - Target auth state: UNCHALLENGED
+07-19-2020 20:59:12 MainClientExec.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 267 - Proxy auth state: UNCHALLENGED
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 133 - http-outgoing-0 >> POST /session/ca0ffc7ea4fa493441644194cecd33bd/element/6f1839d6-473e-4ffd-a46b-baff453cd959/value HTTP/1.1
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Content-Length: 80
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Host: localhost:47482
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Connection: Keep-Alive
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/14)
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "POST /session/ca0ffc7ea4fa493441644194cecd33bd/element/6f1839d6-473e-4ffd-a46b-baff453cd959/value HTTP/1.1[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Content-Length: 80[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Host: localhost:47482[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/14)[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 87 - http-outgoing-0 >> "{"id":"6f1839d6-473e-4ffd-a46b-baff453cd959","text":"0.0","value":["0",".","0"]}"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "Content-Length:14[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 87 - http-outgoing-0 << "{"value":null}"
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 122 - http-outgoing-0 << HTTP/1.1 200 OK
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 125 - http-outgoing-0 << Content-Length:14
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 125 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 125 - http-outgoing-0 << cache-control:no-cache
+07-19-2020 20:59:12 MainClientExec.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 285 - Connection can be kept alive indefinitely
+07-19-2020 20:59:12 PoolingHttpClientConnectionManager.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 320 - Connection [id: 0][route: {}->http://localhost:47482] can be kept alive indefinitely
+07-19-2020 20:59:12 PoolingHttpClientConnectionManager.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 326 - Connection released: [id: 0][route: {}->http://localhost:47482][total kept alive: 2; route allocated: 1 of 2000; total allocated: 2 of 2000]
+]]></system-out>
+  </testcase>
+  <testcase name="typeNewInterest" classname="com.EmiCalculator.smoketest.TestDriver" time="0.747">
+    <failure message="Minimum Interest Rate : 5% expected [5.0] but found [0.0]" type="java.lang.AssertionError">java.lang.AssertionError: Minimum Interest Rate : 5% expected [5.0] but found [0.0]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at com.EmiCalculator.smoketest.TestDriver.typeNewInterest(TestDriver.java:201)
+</failure>
+    <system-out><![CDATA[07-19-2020 20:59:12 RequestAddCookies.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] protocol.RequestAddCookies 123 - CookieSpec selected: default
+07-19-2020 20:59:12 RequestAuthCache.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] protocol.RequestAuthCache 77 - Auth cache not set in the context
+07-19-2020 20:59:12 PoolingHttpClientConnectionManager.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 255 - Connection request: [route: {}->http://localhost:47482][total kept alive: 2; route allocated: 1 of 2000; total allocated: 2 of 2000]
+07-19-2020 20:59:12 PoolingHttpClientConnectionManager.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 288 - Connection leased: [id: 0][route: {}->http://localhost:47482][total kept alive: 1; route allocated: 1 of 2000; total allocated: 2 of 2000]
+07-19-2020 20:59:12 MainClientExec.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 208 - Stale connection check
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 87 - http-outgoing-0 << "[read] I/O error: Read timed out"
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.DefaultManagedHttpClientConnection 88 - http-outgoing-0: set socket timeout to 10800000
+07-19-2020 20:59:12 MainClientExec.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 256 - Executing request POST /session/ca0ffc7ea4fa493441644194cecd33bd/element HTTP/1.1
+07-19-2020 20:59:12 MainClientExec.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 261 - Target auth state: UNCHALLENGED
+07-19-2020 20:59:12 MainClientExec.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 267 - Proxy auth state: UNCHALLENGED
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 133 - http-outgoing-0 >> POST /session/ca0ffc7ea4fa493441644194cecd33bd/element HTTP/1.1
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Content-Length: 48
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Host: localhost:47482
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Connection: Keep-Alive
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/14)
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "POST /session/ca0ffc7ea4fa493441644194cecd33bd/element HTTP/1.1[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Content-Length: 48[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Host: localhost:47482[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/14)[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 87 - http-outgoing-0 >> "{"value":"#loaninterest","using":"css selector"}"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "Content-Length:88[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 87 - http-outgoing-0 << "{"value":{"element-6066-11e4-a52e-4f735466cecf":"c0dbbae1-9194-46b6-ae30-b168011e7416"}}"
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 122 - http-outgoing-0 << HTTP/1.1 200 OK
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 125 - http-outgoing-0 << Content-Length:88
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 125 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 125 - http-outgoing-0 << cache-control:no-cache
+07-19-2020 20:59:12 MainClientExec.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 285 - Connection can be kept alive indefinitely
+07-19-2020 20:59:12 PoolingHttpClientConnectionManager.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 320 - Connection [id: 0][route: {}->http://localhost:47482] can be kept alive indefinitely
+07-19-2020 20:59:12 PoolingHttpClientConnectionManager.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 326 - Connection released: [id: 0][route: {}->http://localhost:47482][total kept alive: 2; route allocated: 1 of 2000; total allocated: 2 of 2000]
+07-19-2020 20:59:12 RequestAddCookies.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] protocol.RequestAddCookies 123 - CookieSpec selected: default
+07-19-2020 20:59:12 RequestAuthCache.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] protocol.RequestAuthCache 77 - Auth cache not set in the context
+07-19-2020 20:59:12 PoolingHttpClientConnectionManager.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 255 - Connection request: [route: {}->http://localhost:47482][total kept alive: 2; route allocated: 1 of 2000; total allocated: 2 of 2000]
+07-19-2020 20:59:12 PoolingHttpClientConnectionManager.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 288 - Connection leased: [id: 0][route: {}->http://localhost:47482][total kept alive: 1; route allocated: 1 of 2000; total allocated: 2 of 2000]
+07-19-2020 20:59:12 MainClientExec.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 208 - Stale connection check
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 87 - http-outgoing-0 << "[read] I/O error: Read timed out"
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.DefaultManagedHttpClientConnection 88 - http-outgoing-0: set socket timeout to 10800000
+07-19-2020 20:59:12 MainClientExec.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 256 - Executing request POST /session/ca0ffc7ea4fa493441644194cecd33bd/element/c0dbbae1-9194-46b6-ae30-b168011e7416/clear HTTP/1.1
+07-19-2020 20:59:12 MainClientExec.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 261 - Target auth state: UNCHALLENGED
+07-19-2020 20:59:12 MainClientExec.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 267 - Proxy auth state: UNCHALLENGED
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 133 - http-outgoing-0 >> POST /session/ca0ffc7ea4fa493441644194cecd33bd/element/c0dbbae1-9194-46b6-ae30-b168011e7416/clear HTTP/1.1
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Content-Length: 45
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Host: localhost:47482
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Connection: Keep-Alive
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/14)
+07-19-2020 20:59:12 LoggingManagedHttpClientConnection.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "POST /session/ca0ffc7ea4fa493441644194cecd33bd/element/c0dbbae1-9194-46b6-ae30-b168011e7416/clear HTTP/1.1[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Content-Length: 45[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Host: localhost:47482[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/14)[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "[\r][\n]"
+07-19-2020 20:59:12 Wire.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 87 - http-outgoing-0 >> "{"id":"c0dbbae1-9194-46b6-ae30-b168011e7416"}"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "Content-Length:14[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 87 - http-outgoing-0 << "{"value":null}"
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 122 - http-outgoing-0 << HTTP/1.1 200 OK
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 125 - http-outgoing-0 << Content-Length:14
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 125 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 125 - http-outgoing-0 << cache-control:no-cache
+07-19-2020 20:59:13 MainClientExec.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 285 - Connection can be kept alive indefinitely
+07-19-2020 20:59:13 PoolingHttpClientConnectionManager.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 320 - Connection [id: 0][route: {}->http://localhost:47482] can be kept alive indefinitely
+07-19-2020 20:59:13 PoolingHttpClientConnectionManager.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 326 - Connection released: [id: 0][route: {}->http://localhost:47482][total kept alive: 2; route allocated: 1 of 2000; total allocated: 2 of 2000]
+07-19-2020 20:59:13 RequestAddCookies.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] protocol.RequestAddCookies 123 - CookieSpec selected: default
+07-19-2020 20:59:13 RequestAuthCache.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] protocol.RequestAuthCache 77 - Auth cache not set in the context
+07-19-2020 20:59:13 PoolingHttpClientConnectionManager.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 255 - Connection request: [route: {}->http://localhost:47482][total kept alive: 2; route allocated: 1 of 2000; total allocated: 2 of 2000]
+07-19-2020 20:59:13 PoolingHttpClientConnectionManager.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 288 - Connection leased: [id: 0][route: {}->http://localhost:47482][total kept alive: 1; route allocated: 1 of 2000; total allocated: 2 of 2000]
+07-19-2020 20:59:13 MainClientExec.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 208 - Stale connection check
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 87 - http-outgoing-0 << "[read] I/O error: Read timed out"
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.DefaultManagedHttpClientConnection 88 - http-outgoing-0: set socket timeout to 10800000
+07-19-2020 20:59:13 MainClientExec.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 256 - Executing request POST /session/ca0ffc7ea4fa493441644194cecd33bd/element HTTP/1.1
+07-19-2020 20:59:13 MainClientExec.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 261 - Target auth state: UNCHALLENGED
+07-19-2020 20:59:13 MainClientExec.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 267 - Proxy auth state: UNCHALLENGED
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 133 - http-outgoing-0 >> POST /session/ca0ffc7ea4fa493441644194cecd33bd/element HTTP/1.1
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Content-Length: 48
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Host: localhost:47482
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Connection: Keep-Alive
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/14)
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "POST /session/ca0ffc7ea4fa493441644194cecd33bd/element HTTP/1.1[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Content-Length: 48[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Host: localhost:47482[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/14)[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 87 - http-outgoing-0 >> "{"value":"#loaninterest","using":"css selector"}"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "Content-Length:88[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 87 - http-outgoing-0 << "{"value":{"element-6066-11e4-a52e-4f735466cecf":"c0dbbae1-9194-46b6-ae30-b168011e7416"}}"
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 122 - http-outgoing-0 << HTTP/1.1 200 OK
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 125 - http-outgoing-0 << Content-Length:88
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 125 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 125 - http-outgoing-0 << cache-control:no-cache
+07-19-2020 20:59:13 MainClientExec.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 285 - Connection can be kept alive indefinitely
+07-19-2020 20:59:13 PoolingHttpClientConnectionManager.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 320 - Connection [id: 0][route: {}->http://localhost:47482] can be kept alive indefinitely
+07-19-2020 20:59:13 PoolingHttpClientConnectionManager.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 326 - Connection released: [id: 0][route: {}->http://localhost:47482][total kept alive: 2; route allocated: 1 of 2000; total allocated: 2 of 2000]
+07-19-2020 20:59:13 RequestAddCookies.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] protocol.RequestAddCookies 123 - CookieSpec selected: default
+07-19-2020 20:59:13 RequestAuthCache.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] protocol.RequestAuthCache 77 - Auth cache not set in the context
+07-19-2020 20:59:13 PoolingHttpClientConnectionManager.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 255 - Connection request: [route: {}->http://localhost:47482][total kept alive: 2; route allocated: 1 of 2000; total allocated: 2 of 2000]
+07-19-2020 20:59:13 PoolingHttpClientConnectionManager.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 288 - Connection leased: [id: 0][route: {}->http://localhost:47482][total kept alive: 1; route allocated: 1 of 2000; total allocated: 2 of 2000]
+07-19-2020 20:59:13 MainClientExec.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 208 - Stale connection check
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 87 - http-outgoing-0 << "[read] I/O error: Read timed out"
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.DefaultManagedHttpClientConnection 88 - http-outgoing-0: set socket timeout to 10800000
+07-19-2020 20:59:13 MainClientExec.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 256 - Executing request POST /session/ca0ffc7ea4fa493441644194cecd33bd/element/c0dbbae1-9194-46b6-ae30-b168011e7416/value HTTP/1.1
+07-19-2020 20:59:13 MainClientExec.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 261 - Target auth state: UNCHALLENGED
+07-19-2020 20:59:13 MainClientExec.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 267 - Proxy auth state: UNCHALLENGED
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 133 - http-outgoing-0 >> POST /session/ca0ffc7ea4fa493441644194cecd33bd/element/c0dbbae1-9194-46b6-ae30-b168011e7416/value HTTP/1.1
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Content-Length: 74
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Host: localhost:47482
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Connection: Keep-Alive
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/14)
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "POST /session/ca0ffc7ea4fa493441644194cecd33bd/element/c0dbbae1-9194-46b6-ae30-b168011e7416/value HTTP/1.1[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Content-Length: 74[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Host: localhost:47482[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/14)[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 87 - http-outgoing-0 >> "{"id":"c0dbbae1-9194-46b6-ae30-b168011e7416","text":"[0xee][0x80][0x83]","value":["[0xee][0x80][0x83]"]}"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "Content-Length:14[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 87 - http-outgoing-0 << "{"value":null}"
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 122 - http-outgoing-0 << HTTP/1.1 200 OK
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 125 - http-outgoing-0 << Content-Length:14
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 125 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 125 - http-outgoing-0 << cache-control:no-cache
+07-19-2020 20:59:13 MainClientExec.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 285 - Connection can be kept alive indefinitely
+07-19-2020 20:59:13 PoolingHttpClientConnectionManager.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 320 - Connection [id: 0][route: {}->http://localhost:47482] can be kept alive indefinitely
+07-19-2020 20:59:13 PoolingHttpClientConnectionManager.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 326 - Connection released: [id: 0][route: {}->http://localhost:47482][total kept alive: 2; route allocated: 1 of 2000; total allocated: 2 of 2000]
+07-19-2020 20:59:13 RequestAddCookies.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] protocol.RequestAddCookies 123 - CookieSpec selected: default
+07-19-2020 20:59:13 RequestAuthCache.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] protocol.RequestAuthCache 77 - Auth cache not set in the context
+07-19-2020 20:59:13 PoolingHttpClientConnectionManager.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 255 - Connection request: [route: {}->http://localhost:47482][total kept alive: 2; route allocated: 1 of 2000; total allocated: 2 of 2000]
+07-19-2020 20:59:13 PoolingHttpClientConnectionManager.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 288 - Connection leased: [id: 0][route: {}->http://localhost:47482][total kept alive: 1; route allocated: 1 of 2000; total allocated: 2 of 2000]
+07-19-2020 20:59:13 MainClientExec.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 208 - Stale connection check
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 87 - http-outgoing-0 << "[read] I/O error: Read timed out"
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.DefaultManagedHttpClientConnection 88 - http-outgoing-0: set socket timeout to 10800000
+07-19-2020 20:59:13 MainClientExec.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 256 - Executing request POST /session/ca0ffc7ea4fa493441644194cecd33bd/element HTTP/1.1
+07-19-2020 20:59:13 MainClientExec.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 261 - Target auth state: UNCHALLENGED
+07-19-2020 20:59:13 MainClientExec.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 267 - Proxy auth state: UNCHALLENGED
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 133 - http-outgoing-0 >> POST /session/ca0ffc7ea4fa493441644194cecd33bd/element HTTP/1.1
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Content-Length: 48
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Host: localhost:47482
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Connection: Keep-Alive
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/14)
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "POST /session/ca0ffc7ea4fa493441644194cecd33bd/element HTTP/1.1[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Content-Length: 48[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Host: localhost:47482[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/14)[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 87 - http-outgoing-0 >> "{"value":"#loaninterest","using":"css selector"}"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "Content-Length:88[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 87 - http-outgoing-0 << "{"value":{"element-6066-11e4-a52e-4f735466cecf":"c0dbbae1-9194-46b6-ae30-b168011e7416"}}"
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 122 - http-outgoing-0 << HTTP/1.1 200 OK
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 125 - http-outgoing-0 << Content-Length:88
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 125 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 125 - http-outgoing-0 << cache-control:no-cache
+07-19-2020 20:59:13 MainClientExec.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 285 - Connection can be kept alive indefinitely
+07-19-2020 20:59:13 PoolingHttpClientConnectionManager.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 320 - Connection [id: 0][route: {}->http://localhost:47482] can be kept alive indefinitely
+07-19-2020 20:59:13 PoolingHttpClientConnectionManager.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 326 - Connection released: [id: 0][route: {}->http://localhost:47482][total kept alive: 2; route allocated: 1 of 2000; total allocated: 2 of 2000]
+07-19-2020 20:59:13 RequestAddCookies.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] protocol.RequestAddCookies 123 - CookieSpec selected: default
+07-19-2020 20:59:13 RequestAuthCache.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] protocol.RequestAuthCache 77 - Auth cache not set in the context
+07-19-2020 20:59:13 PoolingHttpClientConnectionManager.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 255 - Connection request: [route: {}->http://localhost:47482][total kept alive: 2; route allocated: 1 of 2000; total allocated: 2 of 2000]
+07-19-2020 20:59:13 PoolingHttpClientConnectionManager.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 288 - Connection leased: [id: 0][route: {}->http://localhost:47482][total kept alive: 1; route allocated: 1 of 2000; total allocated: 2 of 2000]
+07-19-2020 20:59:13 MainClientExec.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 208 - Stale connection check
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 87 - http-outgoing-0 << "[read] I/O error: Read timed out"
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.DefaultManagedHttpClientConnection 88 - http-outgoing-0: set socket timeout to 10800000
+07-19-2020 20:59:13 MainClientExec.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 256 - Executing request POST /session/ca0ffc7ea4fa493441644194cecd33bd/element/c0dbbae1-9194-46b6-ae30-b168011e7416/value HTTP/1.1
+07-19-2020 20:59:13 MainClientExec.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 261 - Target auth state: UNCHALLENGED
+07-19-2020 20:59:13 MainClientExec.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 267 - Proxy auth state: UNCHALLENGED
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 133 - http-outgoing-0 >> POST /session/ca0ffc7ea4fa493441644194cecd33bd/element/c0dbbae1-9194-46b6-ae30-b168011e7416/value HTTP/1.1
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Content-Length: 80
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Host: localhost:47482
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Connection: Keep-Alive
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/14)
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "POST /session/ca0ffc7ea4fa493441644194cecd33bd/element/c0dbbae1-9194-46b6-ae30-b168011e7416/value HTTP/1.1[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Content-Length: 80[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Host: localhost:47482[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/14)[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 87 - http-outgoing-0 >> "{"id":"c0dbbae1-9194-46b6-ae30-b168011e7416","text":"0.0","value":["0",".","0"]}"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "Content-Length:14[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 87 - http-outgoing-0 << "{"value":null}"
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 122 - http-outgoing-0 << HTTP/1.1 200 OK
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 125 - http-outgoing-0 << Content-Length:14
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 125 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 125 - http-outgoing-0 << cache-control:no-cache
+07-19-2020 20:59:13 MainClientExec.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 285 - Connection can be kept alive indefinitely
+07-19-2020 20:59:13 PoolingHttpClientConnectionManager.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 320 - Connection [id: 0][route: {}->http://localhost:47482] can be kept alive indefinitely
+07-19-2020 20:59:13 PoolingHttpClientConnectionManager.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 326 - Connection released: [id: 0][route: {}->http://localhost:47482][total kept alive: 2; route allocated: 1 of 2000; total allocated: 2 of 2000]
+]]></system-out>
+  </testcase>
+  <testcase name="typeNewTenure" classname="com.EmiCalculator.smoketest.TestDriver" time="0.681">
+    <failure message="Minimum Loan Tenure is : 1 Year expected [1.0] but found [0.0]" type="java.lang.AssertionError">java.lang.AssertionError: Minimum Loan Tenure is : 1 Year expected [1.0] but found [0.0]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at com.EmiCalculator.smoketest.TestDriver.typeNewTenure(TestDriver.java:211)
+</failure>
+    <system-out><![CDATA[07-19-2020 20:59:13 RequestAddCookies.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] protocol.RequestAddCookies 123 - CookieSpec selected: default
+07-19-2020 20:59:13 RequestAuthCache.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] protocol.RequestAuthCache 77 - Auth cache not set in the context
+07-19-2020 20:59:13 PoolingHttpClientConnectionManager.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 255 - Connection request: [route: {}->http://localhost:47482][total kept alive: 2; route allocated: 1 of 2000; total allocated: 2 of 2000]
+07-19-2020 20:59:13 PoolingHttpClientConnectionManager.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 288 - Connection leased: [id: 0][route: {}->http://localhost:47482][total kept alive: 1; route allocated: 1 of 2000; total allocated: 2 of 2000]
+07-19-2020 20:59:13 MainClientExec.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 208 - Stale connection check
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 87 - http-outgoing-0 << "[read] I/O error: Read timed out"
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.DefaultManagedHttpClientConnection 88 - http-outgoing-0: set socket timeout to 10800000
+07-19-2020 20:59:13 MainClientExec.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 256 - Executing request POST /session/ca0ffc7ea4fa493441644194cecd33bd/element HTTP/1.1
+07-19-2020 20:59:13 MainClientExec.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 261 - Target auth state: UNCHALLENGED
+07-19-2020 20:59:13 MainClientExec.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 267 - Proxy auth state: UNCHALLENGED
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 133 - http-outgoing-0 >> POST /session/ca0ffc7ea4fa493441644194cecd33bd/element HTTP/1.1
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Content-Length: 44
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Host: localhost:47482
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Connection: Keep-Alive
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/14)
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "POST /session/ca0ffc7ea4fa493441644194cecd33bd/element HTTP/1.1[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Content-Length: 44[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Host: localhost:47482[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/14)[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 87 - http-outgoing-0 >> "{"value":"#loanterm","using":"css selector"}"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "Content-Length:88[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 87 - http-outgoing-0 << "{"value":{"element-6066-11e4-a52e-4f735466cecf":"c382d4e3-d5ed-44a6-8c59-7095bcba9827"}}"
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 122 - http-outgoing-0 << HTTP/1.1 200 OK
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 125 - http-outgoing-0 << Content-Length:88
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 125 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 125 - http-outgoing-0 << cache-control:no-cache
+07-19-2020 20:59:13 MainClientExec.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 285 - Connection can be kept alive indefinitely
+07-19-2020 20:59:13 PoolingHttpClientConnectionManager.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 320 - Connection [id: 0][route: {}->http://localhost:47482] can be kept alive indefinitely
+07-19-2020 20:59:13 PoolingHttpClientConnectionManager.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 326 - Connection released: [id: 0][route: {}->http://localhost:47482][total kept alive: 2; route allocated: 1 of 2000; total allocated: 2 of 2000]
+07-19-2020 20:59:13 RequestAddCookies.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] protocol.RequestAddCookies 123 - CookieSpec selected: default
+07-19-2020 20:59:13 RequestAuthCache.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] protocol.RequestAuthCache 77 - Auth cache not set in the context
+07-19-2020 20:59:13 PoolingHttpClientConnectionManager.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 255 - Connection request: [route: {}->http://localhost:47482][total kept alive: 2; route allocated: 1 of 2000; total allocated: 2 of 2000]
+07-19-2020 20:59:13 PoolingHttpClientConnectionManager.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 288 - Connection leased: [id: 0][route: {}->http://localhost:47482][total kept alive: 1; route allocated: 1 of 2000; total allocated: 2 of 2000]
+07-19-2020 20:59:13 MainClientExec.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 208 - Stale connection check
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 87 - http-outgoing-0 << "[read] I/O error: Read timed out"
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.DefaultManagedHttpClientConnection 88 - http-outgoing-0: set socket timeout to 10800000
+07-19-2020 20:59:13 MainClientExec.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 256 - Executing request POST /session/ca0ffc7ea4fa493441644194cecd33bd/element/c382d4e3-d5ed-44a6-8c59-7095bcba9827/clear HTTP/1.1
+07-19-2020 20:59:13 MainClientExec.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 261 - Target auth state: UNCHALLENGED
+07-19-2020 20:59:13 MainClientExec.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 267 - Proxy auth state: UNCHALLENGED
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 133 - http-outgoing-0 >> POST /session/ca0ffc7ea4fa493441644194cecd33bd/element/c382d4e3-d5ed-44a6-8c59-7095bcba9827/clear HTTP/1.1
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Content-Length: 45
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Host: localhost:47482
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Connection: Keep-Alive
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/14)
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "POST /session/ca0ffc7ea4fa493441644194cecd33bd/element/c382d4e3-d5ed-44a6-8c59-7095bcba9827/clear HTTP/1.1[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Content-Length: 45[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Host: localhost:47482[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/14)[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 87 - http-outgoing-0 >> "{"id":"c382d4e3-d5ed-44a6-8c59-7095bcba9827"}"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "Content-Length:14[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 87 - http-outgoing-0 << "{"value":null}"
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 122 - http-outgoing-0 << HTTP/1.1 200 OK
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 125 - http-outgoing-0 << Content-Length:14
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 125 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 125 - http-outgoing-0 << cache-control:no-cache
+07-19-2020 20:59:13 MainClientExec.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 285 - Connection can be kept alive indefinitely
+07-19-2020 20:59:13 PoolingHttpClientConnectionManager.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 320 - Connection [id: 0][route: {}->http://localhost:47482] can be kept alive indefinitely
+07-19-2020 20:59:13 PoolingHttpClientConnectionManager.java DEBUG [Forwarding clearElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 326 - Connection released: [id: 0][route: {}->http://localhost:47482][total kept alive: 2; route allocated: 1 of 2000; total allocated: 2 of 2000]
+07-19-2020 20:59:13 RequestAddCookies.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] protocol.RequestAddCookies 123 - CookieSpec selected: default
+07-19-2020 20:59:13 RequestAuthCache.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] protocol.RequestAuthCache 77 - Auth cache not set in the context
+07-19-2020 20:59:13 PoolingHttpClientConnectionManager.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 255 - Connection request: [route: {}->http://localhost:47482][total kept alive: 2; route allocated: 1 of 2000; total allocated: 2 of 2000]
+07-19-2020 20:59:13 PoolingHttpClientConnectionManager.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 288 - Connection leased: [id: 0][route: {}->http://localhost:47482][total kept alive: 1; route allocated: 1 of 2000; total allocated: 2 of 2000]
+07-19-2020 20:59:13 MainClientExec.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 208 - Stale connection check
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 87 - http-outgoing-0 << "[read] I/O error: Read timed out"
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.DefaultManagedHttpClientConnection 88 - http-outgoing-0: set socket timeout to 10800000
+07-19-2020 20:59:13 MainClientExec.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 256 - Executing request POST /session/ca0ffc7ea4fa493441644194cecd33bd/element HTTP/1.1
+07-19-2020 20:59:13 MainClientExec.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 261 - Target auth state: UNCHALLENGED
+07-19-2020 20:59:13 MainClientExec.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 267 - Proxy auth state: UNCHALLENGED
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 133 - http-outgoing-0 >> POST /session/ca0ffc7ea4fa493441644194cecd33bd/element HTTP/1.1
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Content-Length: 44
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Host: localhost:47482
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Connection: Keep-Alive
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/14)
+07-19-2020 20:59:13 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "POST /session/ca0ffc7ea4fa493441644194cecd33bd/element HTTP/1.1[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Content-Length: 44[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Host: localhost:47482[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/14)[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "[\r][\n]"
+07-19-2020 20:59:13 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 87 - http-outgoing-0 >> "{"value":"#loanterm","using":"css selector"}"
+07-19-2020 20:59:14 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+07-19-2020 20:59:14 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "Content-Length:88[\r][\n]"
+07-19-2020 20:59:14 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+07-19-2020 20:59:14 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+07-19-2020 20:59:14 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "[\r][\n]"
+07-19-2020 20:59:14 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 87 - http-outgoing-0 << "{"value":{"element-6066-11e4-a52e-4f735466cecf":"c382d4e3-d5ed-44a6-8c59-7095bcba9827"}}"
+07-19-2020 20:59:14 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 122 - http-outgoing-0 << HTTP/1.1 200 OK
+07-19-2020 20:59:14 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 125 - http-outgoing-0 << Content-Length:88
+07-19-2020 20:59:14 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 125 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+07-19-2020 20:59:14 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 125 - http-outgoing-0 << cache-control:no-cache
+07-19-2020 20:59:14 MainClientExec.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 285 - Connection can be kept alive indefinitely
+07-19-2020 20:59:14 PoolingHttpClientConnectionManager.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 320 - Connection [id: 0][route: {}->http://localhost:47482] can be kept alive indefinitely
+07-19-2020 20:59:14 PoolingHttpClientConnectionManager.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 326 - Connection released: [id: 0][route: {}->http://localhost:47482][total kept alive: 2; route allocated: 1 of 2000; total allocated: 2 of 2000]
+07-19-2020 20:59:14 RequestAddCookies.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] protocol.RequestAddCookies 123 - CookieSpec selected: default
+07-19-2020 20:59:14 RequestAuthCache.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] protocol.RequestAuthCache 77 - Auth cache not set in the context
+07-19-2020 20:59:14 PoolingHttpClientConnectionManager.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 255 - Connection request: [route: {}->http://localhost:47482][total kept alive: 2; route allocated: 1 of 2000; total allocated: 2 of 2000]
+07-19-2020 20:59:14 PoolingHttpClientConnectionManager.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 288 - Connection leased: [id: 0][route: {}->http://localhost:47482][total kept alive: 1; route allocated: 1 of 2000; total allocated: 2 of 2000]
+07-19-2020 20:59:14 MainClientExec.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 208 - Stale connection check
+07-19-2020 20:59:14 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 87 - http-outgoing-0 << "[read] I/O error: Read timed out"
+07-19-2020 20:59:14 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.DefaultManagedHttpClientConnection 88 - http-outgoing-0: set socket timeout to 10800000
+07-19-2020 20:59:14 MainClientExec.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 256 - Executing request POST /session/ca0ffc7ea4fa493441644194cecd33bd/element/c382d4e3-d5ed-44a6-8c59-7095bcba9827/value HTTP/1.1
+07-19-2020 20:59:14 MainClientExec.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 261 - Target auth state: UNCHALLENGED
+07-19-2020 20:59:14 MainClientExec.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 267 - Proxy auth state: UNCHALLENGED
+07-19-2020 20:59:14 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 133 - http-outgoing-0 >> POST /session/ca0ffc7ea4fa493441644194cecd33bd/element/c382d4e3-d5ed-44a6-8c59-7095bcba9827/value HTTP/1.1
+07-19-2020 20:59:14 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+07-19-2020 20:59:14 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Content-Length: 74
+07-19-2020 20:59:14 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Host: localhost:47482
+07-19-2020 20:59:14 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Connection: Keep-Alive
+07-19-2020 20:59:14 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/14)
+07-19-2020 20:59:14 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+07-19-2020 20:59:14 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "POST /session/ca0ffc7ea4fa493441644194cecd33bd/element/c382d4e3-d5ed-44a6-8c59-7095bcba9827/value HTTP/1.1[\r][\n]"
+07-19-2020 20:59:14 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+07-19-2020 20:59:14 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Content-Length: 74[\r][\n]"
+07-19-2020 20:59:14 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Host: localhost:47482[\r][\n]"
+07-19-2020 20:59:14 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+07-19-2020 20:59:14 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/14)[\r][\n]"
+07-19-2020 20:59:14 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+07-19-2020 20:59:14 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "[\r][\n]"
+07-19-2020 20:59:14 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 87 - http-outgoing-0 >> "{"id":"c382d4e3-d5ed-44a6-8c59-7095bcba9827","text":"[0xee][0x80][0x83]","value":["[0xee][0x80][0x83]"]}"
+07-19-2020 20:59:14 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+07-19-2020 20:59:14 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "Content-Length:14[\r][\n]"
+07-19-2020 20:59:14 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+07-19-2020 20:59:14 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+07-19-2020 20:59:14 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "[\r][\n]"
+07-19-2020 20:59:14 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 87 - http-outgoing-0 << "{"value":null}"
+07-19-2020 20:59:14 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 122 - http-outgoing-0 << HTTP/1.1 200 OK
+07-19-2020 20:59:14 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 125 - http-outgoing-0 << Content-Length:14
+07-19-2020 20:59:14 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 125 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+07-19-2020 20:59:14 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 125 - http-outgoing-0 << cache-control:no-cache
+07-19-2020 20:59:14 MainClientExec.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 285 - Connection can be kept alive indefinitely
+07-19-2020 20:59:14 PoolingHttpClientConnectionManager.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 320 - Connection [id: 0][route: {}->http://localhost:47482] can be kept alive indefinitely
+07-19-2020 20:59:14 PoolingHttpClientConnectionManager.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 326 - Connection released: [id: 0][route: {}->http://localhost:47482][total kept alive: 2; route allocated: 1 of 2000; total allocated: 2 of 2000]
+07-19-2020 20:59:14 RequestAddCookies.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] protocol.RequestAddCookies 123 - CookieSpec selected: default
+07-19-2020 20:59:14 RequestAuthCache.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] protocol.RequestAuthCache 77 - Auth cache not set in the context
+07-19-2020 20:59:14 PoolingHttpClientConnectionManager.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 255 - Connection request: [route: {}->http://localhost:47482][total kept alive: 2; route allocated: 1 of 2000; total allocated: 2 of 2000]
+07-19-2020 20:59:14 PoolingHttpClientConnectionManager.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 288 - Connection leased: [id: 0][route: {}->http://localhost:47482][total kept alive: 1; route allocated: 1 of 2000; total allocated: 2 of 2000]
+07-19-2020 20:59:14 MainClientExec.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 208 - Stale connection check
+07-19-2020 20:59:14 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 87 - http-outgoing-0 << "[read] I/O error: Read timed out"
+07-19-2020 20:59:14 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.DefaultManagedHttpClientConnection 88 - http-outgoing-0: set socket timeout to 10800000
+07-19-2020 20:59:14 MainClientExec.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 256 - Executing request POST /session/ca0ffc7ea4fa493441644194cecd33bd/element HTTP/1.1
+07-19-2020 20:59:14 MainClientExec.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 261 - Target auth state: UNCHALLENGED
+07-19-2020 20:59:14 MainClientExec.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 267 - Proxy auth state: UNCHALLENGED
+07-19-2020 20:59:14 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 133 - http-outgoing-0 >> POST /session/ca0ffc7ea4fa493441644194cecd33bd/element HTTP/1.1
+07-19-2020 20:59:14 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+07-19-2020 20:59:14 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Content-Length: 44
+07-19-2020 20:59:14 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Host: localhost:47482
+07-19-2020 20:59:14 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Connection: Keep-Alive
+07-19-2020 20:59:14 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/14)
+07-19-2020 20:59:14 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+07-19-2020 20:59:14 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "POST /session/ca0ffc7ea4fa493441644194cecd33bd/element HTTP/1.1[\r][\n]"
+07-19-2020 20:59:14 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+07-19-2020 20:59:14 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Content-Length: 44[\r][\n]"
+07-19-2020 20:59:14 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Host: localhost:47482[\r][\n]"
+07-19-2020 20:59:14 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+07-19-2020 20:59:14 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/14)[\r][\n]"
+07-19-2020 20:59:14 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+07-19-2020 20:59:14 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "[\r][\n]"
+07-19-2020 20:59:14 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 87 - http-outgoing-0 >> "{"value":"#loanterm","using":"css selector"}"
+07-19-2020 20:59:14 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+07-19-2020 20:59:14 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "Content-Length:88[\r][\n]"
+07-19-2020 20:59:14 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+07-19-2020 20:59:14 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+07-19-2020 20:59:14 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "[\r][\n]"
+07-19-2020 20:59:14 Wire.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 87 - http-outgoing-0 << "{"value":{"element-6066-11e4-a52e-4f735466cecf":"c382d4e3-d5ed-44a6-8c59-7095bcba9827"}}"
+07-19-2020 20:59:14 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 122 - http-outgoing-0 << HTTP/1.1 200 OK
+07-19-2020 20:59:14 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 125 - http-outgoing-0 << Content-Length:88
+07-19-2020 20:59:14 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 125 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+07-19-2020 20:59:14 LoggingManagedHttpClientConnection.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 125 - http-outgoing-0 << cache-control:no-cache
+07-19-2020 20:59:14 MainClientExec.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 285 - Connection can be kept alive indefinitely
+07-19-2020 20:59:14 PoolingHttpClientConnectionManager.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 320 - Connection [id: 0][route: {}->http://localhost:47482] can be kept alive indefinitely
+07-19-2020 20:59:14 PoolingHttpClientConnectionManager.java DEBUG [Forwarding findElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 326 - Connection released: [id: 0][route: {}->http://localhost:47482][total kept alive: 2; route allocated: 1 of 2000; total allocated: 2 of 2000]
+07-19-2020 20:59:14 RequestAddCookies.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] protocol.RequestAddCookies 123 - CookieSpec selected: default
+07-19-2020 20:59:14 RequestAuthCache.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] protocol.RequestAuthCache 77 - Auth cache not set in the context
+07-19-2020 20:59:14 PoolingHttpClientConnectionManager.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 255 - Connection request: [route: {}->http://localhost:47482][total kept alive: 2; route allocated: 1 of 2000; total allocated: 2 of 2000]
+07-19-2020 20:59:14 PoolingHttpClientConnectionManager.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 288 - Connection leased: [id: 0][route: {}->http://localhost:47482][total kept alive: 1; route allocated: 1 of 2000; total allocated: 2 of 2000]
+07-19-2020 20:59:14 MainClientExec.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 208 - Stale connection check
+07-19-2020 20:59:14 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 87 - http-outgoing-0 << "[read] I/O error: Read timed out"
+07-19-2020 20:59:14 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.DefaultManagedHttpClientConnection 88 - http-outgoing-0: set socket timeout to 10800000
+07-19-2020 20:59:14 MainClientExec.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 256 - Executing request POST /session/ca0ffc7ea4fa493441644194cecd33bd/element/c382d4e3-d5ed-44a6-8c59-7095bcba9827/value HTTP/1.1
+07-19-2020 20:59:14 MainClientExec.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 261 - Target auth state: UNCHALLENGED
+07-19-2020 20:59:14 MainClientExec.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 267 - Proxy auth state: UNCHALLENGED
+07-19-2020 20:59:14 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 133 - http-outgoing-0 >> POST /session/ca0ffc7ea4fa493441644194cecd33bd/element/c382d4e3-d5ed-44a6-8c59-7095bcba9827/value HTTP/1.1
+07-19-2020 20:59:14 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+07-19-2020 20:59:14 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Content-Length: 80
+07-19-2020 20:59:14 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Host: localhost:47482
+07-19-2020 20:59:14 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Connection: Keep-Alive
+07-19-2020 20:59:14 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/14)
+07-19-2020 20:59:14 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+07-19-2020 20:59:14 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "POST /session/ca0ffc7ea4fa493441644194cecd33bd/element/c382d4e3-d5ed-44a6-8c59-7095bcba9827/value HTTP/1.1[\r][\n]"
+07-19-2020 20:59:14 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+07-19-2020 20:59:14 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Content-Length: 80[\r][\n]"
+07-19-2020 20:59:14 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Host: localhost:47482[\r][\n]"
+07-19-2020 20:59:14 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+07-19-2020 20:59:14 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/14)[\r][\n]"
+07-19-2020 20:59:14 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+07-19-2020 20:59:14 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 >> "[\r][\n]"
+07-19-2020 20:59:14 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 87 - http-outgoing-0 >> "{"id":"c382d4e3-d5ed-44a6-8c59-7095bcba9827","text":"0.0","value":["0",".","0"]}"
+07-19-2020 20:59:14 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+07-19-2020 20:59:14 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "Content-Length:14[\r][\n]"
+07-19-2020 20:59:14 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+07-19-2020 20:59:14 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+07-19-2020 20:59:14 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 73 - http-outgoing-0 << "[\r][\n]"
+07-19-2020 20:59:14 Wire.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.wire 87 - http-outgoing-0 << "{"value":null}"
+07-19-2020 20:59:14 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 122 - http-outgoing-0 << HTTP/1.1 200 OK
+07-19-2020 20:59:14 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 125 - http-outgoing-0 << Content-Length:14
+07-19-2020 20:59:14 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 125 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+07-19-2020 20:59:14 LoggingManagedHttpClientConnection.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] http.headers 125 - http-outgoing-0 << cache-control:no-cache
+07-19-2020 20:59:14 MainClientExec.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] execchain.MainClientExec 285 - Connection can be kept alive indefinitely
+07-19-2020 20:59:14 PoolingHttpClientConnectionManager.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 320 - Connection [id: 0][route: {}->http://localhost:47482] can be kept alive indefinitely
+07-19-2020 20:59:14 PoolingHttpClientConnectionManager.java DEBUG [Forwarding sendKeysToElement on session ca0ffc7ea4fa493441644194cecd33bd to remote] conn.PoolingHttpClientConnectionManager 326 - Connection released: [id: 0][route: {}->http://localhost:47482][total kept alive: 2; route allocated: 1 of 2000; total allocated: 2 of 2000]
+]]></system-out>
+  </testcase>
+  <testcase name="clickSecondExpand" classname="com.EmiCalculator.smoketest.TestDriver" time="0.205"/>
+  <testcase name="getNewValues" classname="com.EmiCalculator.smoketest.TestDriver" time="0.565"/>
+  <testcase name="takesecondScreenShot" classname="com.EmiCalculator.smoketest.TestDriver" time="0.604"/>
+</testsuite>

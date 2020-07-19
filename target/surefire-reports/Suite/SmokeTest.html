@@ -1,0 +1,445 @@
+<html>
+<head>
+<title>TestNG:  SmokeTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>SmokeTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>13/3/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Jul 19 20:58:19 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>56 seconds (56454 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.EmiCalculator.smoketest.TestDriver.typeNewAmount()'><b>typeNewAmount</b><br>Test class: com.EmiCalculator.smoketest.TestDriver<br>Test method: Retesting the Amount field<br/>
+<a href="#Output-628270376" onClick='toggleBox("Output-628270376", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-628270376" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-628270376">
+Test for the method : typeNewAmount has started
+<br/>
+
+Test for method typeNewAmount has failed
+<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: Minimum Loan Amount : 1 expected [1.0] but found [0.0]
+	at com.EmiCalculator.smoketest.TestDriver.typeNewAmount(TestDriver.java:191)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace628270376", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace628270376'><pre>java.lang.AssertionError: Minimum Loan Amount : 1 expected [1.0] but found [0.0]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at com.EmiCalculator.smoketest.TestDriver.typeNewAmount(TestDriver.java:191)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</pre></div></td>
+<td>0</td>
+<td>com.EmiCalculator.smoketest.TestDriver@38cee291</td></tr>
+<tr>
+<td title='com.EmiCalculator.smoketest.TestDriver.typeNewInterest()'><b>typeNewInterest</b><br>Test class: com.EmiCalculator.smoketest.TestDriver<br>Test method: Retesting the Interest Field<br/>
+<a href="#Output-874776255" onClick='toggleBox("Output-874776255", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-874776255" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-874776255">
+Test for the method : typeNewInterest has started
+<br/>
+
+Test for method typeNewInterest has failed
+<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: Minimum Interest Rate : 5% expected [5.0] but found [0.0]
+	at com.EmiCalculator.smoketest.TestDriver.typeNewInterest(TestDriver.java:201)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace874776255", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace874776255'><pre>java.lang.AssertionError: Minimum Interest Rate : 5% expected [5.0] but found [0.0]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at com.EmiCalculator.smoketest.TestDriver.typeNewInterest(TestDriver.java:201)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</pre></div></td>
+<td>0</td>
+<td>com.EmiCalculator.smoketest.TestDriver@38cee291</td></tr>
+<tr>
+<td title='com.EmiCalculator.smoketest.TestDriver.typeNewTenure()'><b>typeNewTenure</b><br>Test class: com.EmiCalculator.smoketest.TestDriver<br>Test method: Retesting the Tenure Field<br/>
+<a href="#Output-1270423773" onClick='toggleBox("Output-1270423773", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1270423773" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1270423773">
+Test for the method : typeNewTenure has started
+<br/>
+
+Test for method typeNewTenure has failed
+<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: Minimum Loan Tenure is : 1 Year expected [1.0] but found [0.0]
+	at com.EmiCalculator.smoketest.TestDriver.typeNewTenure(TestDriver.java:211)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1270423773", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1270423773'><pre>java.lang.AssertionError: Minimum Loan Tenure is : 1 Year expected [1.0] but found [0.0]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at com.EmiCalculator.smoketest.TestDriver.typeNewTenure(TestDriver.java:211)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</pre></div></td>
+<td>0</td>
+<td>com.EmiCalculator.smoketest.TestDriver@38cee291</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.EmiCalculator.smoketest.TestDriver.clickExpand()'><b>clickExpand</b><br>Test class: com.EmiCalculator.smoketest.TestDriver<br>Test method: To Get the view of the Result in the Tabular form<br/>
+<a href="#Output-1795886455" onClick='toggleBox("Output-1795886455", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1795886455" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1795886455">
+Test for the method : clickExpand has started
+<br/>
+
+Test Successfull for the method : clickExpand
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.EmiCalculator.smoketest.TestDriver@38cee291</td></tr>
+<tr>
+<td title='com.EmiCalculator.smoketest.TestDriver.clickSecondExpand()'><b>clickSecondExpand</b><br>Test class: com.EmiCalculator.smoketest.TestDriver<br>Test method: To get the view of the Result in the Tabular Form<br/>
+<a href="#Output-1327391972" onClick='toggleBox("Output-1327391972", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1327391972" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1327391972">
+Test for the method : clickSecondExpand has started
+<br/>
+
+Test Successfull for the method : clickSecondExpand
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.EmiCalculator.smoketest.TestDriver@38cee291</td></tr>
+<tr>
+<td title='com.EmiCalculator.smoketest.TestDriver.getDataInWorkbook()'><b>getDataInWorkbook</b><br>Test class: com.EmiCalculator.smoketest.TestDriver<br>Test method: To get the data from the table into a Worksheet<br/>
+<a href="#Output-506478309" onClick='toggleBox("Output-506478309", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-506478309" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-506478309">
+Test for the method : getDataInWorkbook has started
+<br/>
+
+Test Successfull for the method : getDataInWorkbook
+<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.EmiCalculator.smoketest.TestDriver@38cee291</td></tr>
+<tr>
+<td title='com.EmiCalculator.smoketest.TestDriver.getNewValues()'><b>getNewValues</b><br>Test class: com.EmiCalculator.smoketest.TestDriver<br>Test method: To get the New values in a Worksheet<br/>
+<a href="#Output-1505174587" onClick='toggleBox("Output-1505174587", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1505174587" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1505174587">
+Test for the method : getNewValues has started
+<br/>
+
+Test Successfull for the method : getNewValues
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.EmiCalculator.smoketest.TestDriver@38cee291</td></tr>
+<tr>
+<td title='com.EmiCalculator.smoketest.TestDriver.newCarLoan()'><b>newCarLoan</b><br>Test class: com.EmiCalculator.smoketest.TestDriver<br>Test method: Clicking the CarLoan option for Retesting<br/>
+<a href="#Output-501308870" onClick='toggleBox("Output-501308870", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-501308870" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-501308870">
+Test for the method : newCarLoan has started
+<br/>
+
+Test Successfull for the method : newCarLoan
+<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.EmiCalculator.smoketest.TestDriver@38cee291</td></tr>
+<tr>
+<td title='com.EmiCalculator.smoketest.TestDriver.setoption()'><b>setoption</b><br>Test class: com.EmiCalculator.smoketest.TestDriver<br>Test method: To click on the CarLoan Option<br/>
+<a href="#Output-841466890" onClick='toggleBox("Output-841466890", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-841466890" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-841466890">
+Test for the method : setoption has started
+<br/>
+
+Test Successfull for the method : setoption
+<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.EmiCalculator.smoketest.TestDriver@38cee291</td></tr>
+<tr>
+<td title='com.EmiCalculator.smoketest.TestDriver.takeScreenshot()'><b>takeScreenshot</b><br>Test class: com.EmiCalculator.smoketest.TestDriver<br>Test method: To get the screenshot of the required result<br/>
+<a href="#Output-1062225257" onClick='toggleBox("Output-1062225257", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1062225257" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1062225257">
+Test for the method : takeScreenshot has started
+<br/>
+
+Test Successfull for the method : takeScreenshot
+<br/>
+</div>
+</td>
+<td></td>
+<td>27</td>
+<td>com.EmiCalculator.smoketest.TestDriver@38cee291</td></tr>
+<tr>
+<td title='com.EmiCalculator.smoketest.TestDriver.takesecondScreenShot()'><b>takesecondScreenShot</b><br>Test class: com.EmiCalculator.smoketest.TestDriver<br>Test method: To get the screenshot of the updated result<br/>
+<a href="#Output-1107541670" onClick='toggleBox("Output-1107541670", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1107541670" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1107541670">
+Test for the method : takesecondScreenShot has started
+<br/>
+
+Test Successfull for the method : takesecondScreenShot
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.EmiCalculator.smoketest.TestDriver@38cee291</td></tr>
+<tr>
+<td title='com.EmiCalculator.smoketest.TestDriver.typeAmount()'><b>typeAmount</b><br>Test class: com.EmiCalculator.smoketest.TestDriver<br>Test method: Type in the Amount and Verify the field<br/>
+<a href="#Output-186225758" onClick='toggleBox("Output-186225758", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-186225758" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-186225758">
+Test for the method : typeAmount has started
+<br/>
+
+Test Successfull for the method : typeAmount
+<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.EmiCalculator.smoketest.TestDriver@38cee291</td></tr>
+<tr>
+<td title='com.EmiCalculator.smoketest.TestDriver.typeInterest()'><b>typeInterest</b><br>Test class: com.EmiCalculator.smoketest.TestDriver<br>Test method: Type in the InterestRate and Verify the field<br/>
+<a href="#Output-883958373" onClick='toggleBox("Output-883958373", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-883958373" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-883958373">
+Test for the method : typeInterest has started
+<br/>
+
+Test Successfull for the method : typeInterest
+<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.EmiCalculator.smoketest.TestDriver@38cee291</td></tr>
+<tr>
+<td title='com.EmiCalculator.smoketest.TestDriver.typeStartingMonth()'><b>typeStartingMonth</b><br>Test class: com.EmiCalculator.smoketest.TestDriver<br>Test method: To check whether StartingMonth field is Enabled or not<br/>
+<a href="#Output-1810824505" onClick='toggleBox("Output-1810824505", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1810824505" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1810824505">
+Test for the method : typeStartingMonth has started
+<br/>
+
+Test Successfull for the method : typeStartingMonth
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.EmiCalculator.smoketest.TestDriver@38cee291</td></tr>
+<tr>
+<td title='com.EmiCalculator.smoketest.TestDriver.typeTenure()'><b>typeTenure</b><br>Test class: com.EmiCalculator.smoketest.TestDriver<br>Test method: Type in the Tenure and Verify the field<br/>
+<a href="#Output-1806056054" onClick='toggleBox("Output-1806056054", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1806056054" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1806056054">
+Test for the method : typeTenure has started
+<br/>
+
+Test Successfull for the method : typeTenure
+<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.EmiCalculator.smoketest.TestDriver@38cee291</td></tr>
+<tr>
+<td title='com.EmiCalculator.smoketest.TestDriver.verifyPage()'><b>verifyPage</b><br>Test class: com.EmiCalculator.smoketest.TestDriver<br>Test method: Verifying the page title<br/>
+<a href="#Output-1308305901" onClick='toggleBox("Output-1308305901", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1308305901" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1308305901">
+Test for the method : verifyPage has started
+<br/>
+
+Test Successfull for the method : verifyPage
+<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.EmiCalculator.smoketest.TestDriver@38cee291</td></tr>
+</table><p>
+</body>
+</html>

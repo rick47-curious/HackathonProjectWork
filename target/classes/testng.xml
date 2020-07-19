@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel= "tests" thread-count = "2">
+
+	<listeners>
+		<listener class-name="com.EmiCalculator.smoketest.ReportTest"></listener>
+		<listener class-name = "com.EmiCalculator.AdvanceReport.ExtentReportDriver"></listener>
+	</listeners>
+
+	<test name="SmokeTest">
+		<classes>
+		
+			<class name="com.EmiCalculator.smoketest.TestDriver"></class>
+			
+		</classes>
+	</test>
+	
+	<test name="RegressionTest">
+	<classes>
+	<class name="com.EmiCalculator.regressiontest.DriverRegressionTest"></class>
+	</classes>
+	</test>
+	
+</suite> <!-- Suite -->

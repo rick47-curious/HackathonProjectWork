@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.EmiCalculator.smoketest.ReportTest"/>
+    <listener class-name="com.EmiCalculator.AdvanceReport.ExtentReportDriver"/>
+  </listeners>
+  <test thread-count="2" parallel="tests" name="SmokeTest(failed)" verbose="0">
+    <classes>
+      <class name="com.EmiCalculator.smoketest.TestDriver">
+        <methods>
+          <include name="closeDriver"/>
+          <include name="getRequiredSettings"/>
+          <include name="closeResources"/>
+          <include name="loadSynchronization"/>
+          <include name="typeNewAmount"/>
+          <include name="typeNewTenure"/>
+          <include name="getDriver"/>
+          <include name="typeNewInterest"/>
+        </methods>
+      </class> <!-- com.EmiCalculator.smoketest.TestDriver -->
+    </classes>
+  </test> <!-- SmokeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

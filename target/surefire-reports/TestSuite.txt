@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 23, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 147.345 sec <<< FAILURE! - in TestSuite
+typeNewAmount(com.EmiCalculator.smoketest.TestDriver)  Time elapsed: 1.173 sec  <<< FAILURE!
+java.lang.AssertionError: Minimum Loan Amount : 1 expected [1.0] but found [0.0]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at com.EmiCalculator.smoketest.TestDriver.typeNewAmount(TestDriver.java:191)
+
+typeNewInterest(com.EmiCalculator.smoketest.TestDriver)  Time elapsed: 0.747 sec  <<< FAILURE!
+java.lang.AssertionError: Minimum Interest Rate : 5% expected [5.0] but found [0.0]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at com.EmiCalculator.smoketest.TestDriver.typeNewInterest(TestDriver.java:201)
+
+typeNewTenure(com.EmiCalculator.smoketest.TestDriver)  Time elapsed: 0.681 sec  <<< FAILURE!
+java.lang.AssertionError: Minimum Loan Tenure is : 1 Year expected [1.0] but found [0.0]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at com.EmiCalculator.smoketest.TestDriver.typeNewTenure(TestDriver.java:211)
+
